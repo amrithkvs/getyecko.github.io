@@ -69,7 +69,7 @@ textarea,
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a{
-		font-family: 'Proxima Nova', sans-serif;
+		font-family: 'Avenir Next', sans-serif;
 }
 .header-transparent .navigation > ul > li > a {
 	color:#232323;
@@ -763,8 +763,8 @@ body,
 
 /* Header Initial Styling */
 .header .header-inner{
-	background-color: #FFCF0F;
-	padding: 0rem 0rem 0rem 0rem;
+	background-color: #FFFFFF;
+	padding: 2rem 2rem 2rem 2rem;
 	
 }
 .header .header-inner > .nav-bar{
@@ -772,11 +772,11 @@ body,
 }
 @media only screen and (min-width: 100px){
 	.header .header-inner{
-		padding: 0rem 2rem 1rem 2rem;
+		padding: 0rem 4rem 0rem;
 	}
 	.header .header-inner > .row{
 		max-width: 100%;
-		padding: 0rem 0rem 0rem 2rem ;
+		padding: 0rem 2rem 0rem 2rem ;
 	}
 }
 
@@ -788,11 +788,11 @@ body,
 
 /* Background Header - On Scroll! */
 .header-background .header-inner{
-	background-color: #FFCF0F;
+	background-color: #FFFFFF;
 	/*border-color: #eee;*/
 }
 .header-background .header-inner > .nav-bar{
-	border-bottom: none;
+	border-bottom: 2px;
 }
 
 /* Header Compact - On Scroll */
@@ -807,7 +807,7 @@ body,
 
 /* Header Inner Top */
 .header .header-inner-top{
-	height: 10rem;
+	height: 1rem;
 	background: #FFCF0F;
 	color: #fff;
 }
